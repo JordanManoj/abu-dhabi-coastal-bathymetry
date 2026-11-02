@@ -1,0 +1,96 @@
+{
+  "leakage_rf_rmse": {
+    "Random split": 0.713,
+    "By track": 0.792,
+    "By track +500 m buffer": 0.864,
+    "By ground track +500 m buffer": 0.912,
+    "By ground track +1000 m buffer": 0.99
+  },
+  "profile_pass": "1096_6",
+  "feature_importance_top5": {
+    "pSDB_bg": 0.415,
+    "pSDB_br": 0.175,
+    "B08": 0.046,
+    "lyz_B03": 0.046,
+    "B03": 0.04
+  },
+  "composite_vs_single_rmse_common_pixels": {
+    "n": 92493,
+    "stumpf": {
+      "composite": 1.934,
+      "single": 2.439
+    },
+    "stumpf_switch": {
+      "composite": 1.674,
+      "single": 2.253
+    },
+    "lyzenga": {
+      "composite": 1.619,
+      "single": 1.68
+    },
+    "rf": {
+      "composite": 0.996,
+      "single": 1.085
+    },
+    "xgb": {
+      "composite": 1.025,
+      "single": 1.091
+    }
+  },
+  "per_pass_bias": {
+    "passes": 71,
+    "std_of_pass_bias_m": 0.363,
+    "share_of_error_variance": 0.116,
+    "corr_bias_vs_pass_median_depth": -0.435,
+    "corr_bias_vs_tide": 0.164
+  },
+  "gebco_check": {
+    "n_cells": 310588,
+    "pearson_r": 0.913,
+    "median_abs_diff_m": 1.27
+  },
+  "primary_metrics_0_20": {
+    "stumpf": {
+      "rmse": 2.04,
+      "mae": 1.27,
+      "bias": -0.138,
+      "r2": 0.32
+    },
+    "stumpf_switch": {
+      "rmse": 1.737,
+      "mae": 0.793,
+      "bias": -0.569,
+      "r2": 0.507
+    },
+    "lyzenga": {
+      "rmse": 1.725,
+      "mae": 0.992,
+      "bias": -0.13,
+      "r2": 0.514
+    },
+    "rf": {
+      "rmse": 0.99,
+      "mae": 0.47,
+      "bias": -0.078,
+      "r2": 0.84
+    },
+    "xgb": {
+      "rmse": 1.019,
+      "mae": 0.475,
+      "bias": -0.066,
+      "r2": 0.83
+    },
+    "rf_bands": {
+      "rmse": 1.044,
+      "mae": 0.499,
+      "bias": -0.106,
+      "r2": 0.822
+    },
+    "rf_physics": {
+      "rmse": 0.989,
+      "mae": 0.49,
+      "bias": -0.115,
+      "r2": 0.84
+    }
+  }
+}

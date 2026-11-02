@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Abu Dhabi shallow coastal waters","note":"Bounding box from project brief: 24.3-24.7 N, 54.2-54.8 E (WGS84)"},"geometry":{"type":"Polygon","coordinates":[[[54.2,24.3],[54.8,24.3],[54.8,24.7],[54.2,24.7],[54.2,24.3]]]}}]}

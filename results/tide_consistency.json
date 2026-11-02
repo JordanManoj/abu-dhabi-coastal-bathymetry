@@ -1,0 +1,8 @@
+{
+  "pixel_pairs": 10561,
+  "rms_diff_instantaneous_depth_m": 0.614,
+  "rms_diff_tide_free_depth_m": 0.43,
+  "median_abs_diff_instantaneous_m": 0.344,
+  "median_abs_diff_tide_free_m": 0.096,
+  "median_tide_difference_between_passes_m": 0.407
+}
