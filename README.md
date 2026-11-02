@@ -169,18 +169,6 @@ use spatial context; (4) an uncertainty map (quantile regression forest) so user
 is guessing; (5) monthly maps for **change detection** around ports and dredged channels; (6) test
 transfer to Dubai/Ras Al Khaimah tracks.
 
-## 8. AI usage
-
-AI assistance was used, as allowed for this project. It helped with literature search, boilerplate
-code (plotting, CLI arguments, the Streamlit layout), drafting documentation and the slide builder.
-**I designed and validated:** the tide-free labelling and its repeat-pass check, the choice of SWIR
-over NIR for glint, the validity rule that fixed the Stumpf baseline, the switching baseline, the
-grouped + buffered evaluation with the sensitivity and variogram analyses, the decision not to use
-depth weighting, and the reading of every failure case. Every number in this README comes from a
-script in `src/` and a file in `results/`.
-
----
-
 ## Pipeline
 
 ```mermaid
