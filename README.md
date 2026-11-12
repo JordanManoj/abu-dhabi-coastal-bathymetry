@@ -8,8 +8,9 @@ RMSE 2.04 m / R² 0.32.
 
 ![depth map](results/figures/depth_map.png)
 
-Part of *"A Gulf Maritime Picture: three layers of intelligence for UAE ports and coastline"*
-(with the Dark Vessel Detector and Super-Resolution for Port Intelligence projects).
+**22-second video overview:** [Video/brag.mp4](Video/brag.mp4)
+
+[![video overview](Video/brag.jpg)](Video/brag.mp4)
 
 ---
 
@@ -213,5 +214,6 @@ The steps run one at a time so the laptop's RAM is freed between steps.
 ├── results/  metrics_*.csv · oof_*.parquet · summary.json · buffer_sensitivity.csv · variogram.csv ·
 │             tide_consistency.json · figures/ · failures/ · depth_rf.tif · models/
 ├── demo/app.py
-└── tests/test_core.py             (python -m pytest -q)
+├── tests/test_core.py             (python -m pytest -q)
+└── Video/brag.mp4 · brag.jpg      (22 s video overview)
 ```
