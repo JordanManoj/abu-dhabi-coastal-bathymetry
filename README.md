@@ -8,9 +8,9 @@ RMSE 2.04 m / R² 0.32.
 
 ![depth map](results/figures/depth_map.png)
 
-**22-second video overview:** [Video/brag.mp4](Video/brag.mp4)
+**22-second video overview:** [Video/abu_dhabi_bathymetry_overview.mp4](Video/abu_dhabi_bathymetry_overview.mp4)
 
-[![video overview](Video/brag.jpg)](Video/brag.mp4)
+[![video overview](Video/abu_dhabi_bathymetry_overview.jpg)](Video/abu_dhabi_bathymetry_overview.mp4)
 
 ---
 
@@ -215,5 +215,5 @@ The steps run one at a time so the laptop's RAM is freed between steps.
 │             tide_consistency.json · figures/ · failures/ · depth_rf.tif · models/
 ├── demo/app.py
 ├── tests/test_core.py             (python -m pytest -q)
-└── Video/brag.mp4 · brag.jpg      (22 s video overview)
+└── Video/abu_dhabi_bathymetry_overview.mp4 · .jpg (22 s video overview)
 ```
